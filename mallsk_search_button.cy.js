@@ -111,6 +111,7 @@ describe("mall.sk Search Button", () => {
               .should("include","ovolsecujutsixeen")
           cy.log("Verify No Results")
             cy.contains("Pre daný výber neboli nájdené žiadne ponúkané výrobky.")
+              .should("be.visible")
           })  
   
 
